@@ -65,4 +65,5 @@ const (
 	AppTagStateAwareDisable           = "application.stateaware.disable"
 	AppTagCreateForce                 = "application.create.force"
 	NodeReadyAttribute                = "ready"
+	NodeLastUpdateAttribute           = "node.lastupdatesequence"
 )
