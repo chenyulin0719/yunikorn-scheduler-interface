@@ -98,8 +98,6 @@ type NodeInfo_ActionFromRM int32
 const (
 	// ActionFromRM not set
 	NodeInfo_UNKNOWN_ACTION_FROM_RM NodeInfo_ActionFromRM = 0
-	// Create Node as initially schedulable.
-	NodeInfo_CREATE NodeInfo_ActionFromRM = 1
 	// Update node resources, attributes.
 	NodeInfo_UPDATE NodeInfo_ActionFromRM = 2
 	// Do not allocate new allocations on the node.
